@@ -1,6 +1,6 @@
 series = [
-    ("The Wire", 25),  #nome e valor
-    ("The Office", 20), 
+    ("The Wire", 25),       #nome e valor
+    ("The Office", 20),     #tupla
     ("Breaking Bad", 20), 
     ("The Sopranos", 30),
     ("Mr. Robot", 35), 
@@ -12,7 +12,6 @@ series = [
     ("Pluto", 20), 
 ]
 print(series[7]) #mostra o valor da série no índice 10
-
 print(series[0:3]) #mostra os valores da série do índice 0 ao 2
 print(series[3:]) #mostra os valores da série do índice 3 ao final
 print(series[3][0]) #mostra o valor da série no índice 10

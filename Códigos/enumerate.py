@@ -11,9 +11,12 @@ series = [
     ("Attack On Titan", 28),
     ("Pluto", 20), 
 ]
-print(series[7]) #mostra o valor da série no índice 10
 
-print(series[0:3]) #mostra os valores da série do índice 0 ao 2
-print(series[3:]) #mostra os valores da série do índice 3 ao final
+
 for i, serie in enumerate(series):
     print(f"[{i}] {serie}") #mostra o índice e o valor da série
+
+#COMO FAZER PARA QUE A SAÍDA SEJA PARECIDA COM:
+# [0] The Wire - 25
+# [1] The Office - 20   
+# [2] Breaking Bad - 20
